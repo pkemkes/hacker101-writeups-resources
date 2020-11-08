@@ -2,7 +2,7 @@ import requests
 
 tested_chars = "abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ_-,.!/^#$ "
 # This needs to be changed to your challenge instance
-url = "http://add.your.ip.address/containertag/"
+url = "http://add.your.ip.address/containertag/fetch"
 
 
 def get_blind_query(query):
